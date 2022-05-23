@@ -1,0 +1,70 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', serif;
+}
+
+header {
+    background-color: rgb(232, 143, 239);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px;
+}
+
+nav {
+    margin: 0;
+    padding: 20px;
+}
+
+nav li{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+}
+
+main {
+    /* position: relative; */
+    /* top: 100px; */
+    background: linear-gradient(#ffcea0,#f2c101,#adc5ff,#b0e6ff, #7a82e5);
+}
+
+#contact li {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    display: inline-block;
+    width: 80px;
+}
+
+#landing, #about, #projects, #blog, #resume, #contact {
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact li {
+    /* padding: 20px; */
+    margin: 20px;
+}
+
+p {
+    font-size: larger;
+    margin: 20px;
+    padding: 20px;
+}
